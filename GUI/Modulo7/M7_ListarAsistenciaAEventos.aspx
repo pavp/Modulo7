@@ -26,7 +26,7 @@
                     <th>ID</th>
 					<th>Evento</th>
                     <th>Tipo</th>
-					<th>Fecha</th>
+					<th>Fecha de Inicio</th>
                     <th>Locación</th>
 					<th style="text-align:right;">Acciones</th>
 				</tr>
@@ -34,9 +34,9 @@
 			<tbody>
 				<tr>
 					<td class="id">001</td>
-					<td>Cuarto encuentro de cintas negras 4to DAN</td>
+					<td>Octavo encuentro de cintas negras 4to DAN</td>
 					<td>Seminario</td>
-					<td>23/10/2015</td>
+					<td>24/10/2015</td>
                     <td>Estado Guarico</td>
                     <td>
                         <a class="btn btn-primary glyphicon glyphicon-info-sign" data-toggle="modal" data-target="#modal-info1" href="#"></a>
@@ -44,28 +44,28 @@
                 </tr>
                 <tr>
                     <td class="id">002</td>
-					<td>Cuarto encuentro de cintas negras 4to DAN</td>
-					<td>Seminario</td>
-					<td>25/10/2015</td>
-                    <td>Estado Guarico</td>
+					<td>Clase de kata</td>
+					<td>Clase Especial</td>
+					<td>01/11/2015</td>
+                    <td>Caracas</td>
                     <td>
                         <a class="btn btn-primary glyphicon glyphicon-info-sign" data-toggle="modal" data-target="#modal-info2" href="#"></a>
                      </td>
 				</tr><tr>
                     <td class="id">003</td>
-					<td>Cuarto encuentro de cintas negras 4to DAN</td>
-					<td>Seminario</td>
-					<td>03/10/2015</td>
-                    <td>Estado Guarico</td>
+					<td>Competencia entre cintas verdes</td>
+					<td>Competencia</td>
+					<td>13/10/2015</td>
+                    <td>Caracas - Dojo SAKARATEDO</td>
                     <td>
                         <a class="btn btn-primary glyphicon glyphicon-info-sign" data-toggle="modal" data-target="#modal-info3" href="#"></a>
                      </td>
                 </tr>
                 <tr>
                     <td class="id">004</td>
-					<td>Cuarto encuentro de cintas negras 4to DAN</td>
+					<td>Cuarto encuentro de cintas negras 5to DAN</td>
 					<td>Seminario</td>
-					<td>20/10/2015</td>
+					<td>10/10/2015</td>
                     <td>Estado Guarico</td>
                     <td>
                         <a class="btn btn-primary glyphicon glyphicon-info-sign" data-toggle="modal" data-target="#modal-info4" href="#"></a>
@@ -85,48 +85,35 @@
 				<div class="modal-content">
 					<div class="modal-header">
 						<button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
-						<h4 class="modal-title">Información detallada del Caso de Uso 1</h4>
+						<h4 class="modal-title">Información detallada del evento</h4>
 					</div>
 					<div class="modal-body">
 						<div class="container-fluid" id="info">
 							<div class="row">
-								<h3>Precondiciones</h3>
-									<ul>
-										<li>Usuario registrado</li>
-										<li>Usuario logeado</li>
-										<li>Proyecto creado</li>
-									</ul>
-								<h3>Condición Final de Éxito</h3>
+								<h3>Nombre</h3>
 								<p>
-									Caso de uso creado
+									Octavo encuentro de cintas negras 8vo DAN
 								</p>
-								<h3>Condición Final de Fallo</h3>
+								<h3>Tipo</h3>
 								<p>
-									El caso de uso no pudo ser creado
+									Seminario
 								</p>
-								<h3>Disparador</h3>
+								<h3>Fecha de inicio</h3>
 								<p>
-									Seleccionar opción "Gestión de Casos de uso" → "Agregar caso de uso" del menú
+									24/10/2015
 								</p>
-								<h3>Escenario Principal de Éxito</h3>
-									<ol>
-										<li>El usuario o admin selecciona la opción "Gestión de Casos de uso" → "Agregar caso de uso" del menú.</li>
-										<li>El sistema despliega la pantalla de obtener los datos del caso de uso.</li>
-										<li>El usuario o admin ingresa los números de los requerimientos asociados.</li>
-										<li>El sistema verifica la existencia de esos requerimientos.</li>
-										<li>El usuario o admin introduce los datos del caso de uso.</li>
-										<li>El sistema registra el caso de uso. Volver paso 2. El CU termina.</li>
-    								</ol>
-								<h3>Extensiones</h3>
+								<h3>Fecha de finalización</h3>
 								<p>
-									4-A. El o los requerimientos no existen.
+									26/10/2015
 								</p>
-								<p style="text-indent: 5em;">
-									A1. Desplegar mensaje de error.
+                                <h3>Locación</h3>
+								<p>
+									Estado Guarico
 								</p>
-								<p style="text-indent: 5em;">
-									A2. Volver al paso 2. 
-								</p>
+								<h3>Descripción</h3>
+								<p>
+                                    Encuentro entre los cinturones negros de rango 8vo Dan
+    							</p>
 							</div>
 						</div>
 					</div>
@@ -139,48 +126,35 @@
 				<div class="modal-content">
 					<div class="modal-header">
 						<button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
-						<h4 class="modal-title">Información detallada del Caso de Uso 2</h4>
+						<h4 class="modal-title">Información detallada del evento</h4>
 					</div>
 					<div class="modal-body">
 						<div class="container-fluid" id="info">
 							<div class="row">
-								<h3>Precondiciones</h3>
-									<ul>
-										<li>Usuario registrado</li>
-										<li>Usuario logeado</li>
-										<li>Proyecto creado</li>
-									</ul>
-								<h3>Condición Final de Éxito</h3>
+								<h3>Nombre</h3>
 								<p>
-									Caso de uso creado
+									Clase de Kata
 								</p>
-								<h3>Condición Final de Fallo</h3>
+								<h3>Tipo</h3>
 								<p>
-									El caso de uso no pudo ser creado
+									Clase especial
 								</p>
-								<h3>Disparador</h3>
+								<h3>Fecha de inicio</h3>
 								<p>
-									Seleccionar opción "Gestión de Casos de uso" → "Agregar caso de uso" del menú
+									01/11/2015
 								</p>
-								<h3>Escenario Principal de Éxito</h3>
-									<ol>
-										<li>El usuario o admin selecciona la opción "Gestión de Casos de uso" → "Agregar caso de uso" del menú.</li>
-										<li>El sistema despliega la pantalla de obtener los datos del caso de uso.</li>
-										<li>El usuario o admin ingresa los números de los requerimientos asociados.</li>
-										<li>El sistema verifica la existencia de esos requerimientos.</li>
-										<li>El usuario o admin introduce los datos del caso de uso.</li>
-										<li>El sistema registra el caso de uso. Volver paso 2. El CU termina.</li>
-    								</ol>
-								<h3>Extensiones</h3>
+								<h3>Fecha de finalización</h3>
 								<p>
-									4-A. El o los requerimientos no existen.
+									01/11/2015
 								</p>
-								<p style="text-indent: 5em;">
-									A1. Desplegar mensaje de error.
+                                <h3>Locación</h3>
+								<p>
+									Caracas
 								</p>
-								<p style="text-indent: 5em;">
-									A2. Volver al paso 2. 
-								</p>
+								<h3>Descripción</h3>
+								<p>
+                                    Clase teorica-práctica de kata
+    							</p>
 							</div>
 						</div>
 					</div>
@@ -193,48 +167,35 @@
 				<div class="modal-content">
 					<div class="modal-header">
 						<button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
-						<h4 class="modal-title">Información detallada del Caso de Uso 3</h4>
+						<h4 class="modal-title">Información detallada del evento</h4>
 					</div>
 					<div class="modal-body">
 						<div class="container-fluid" id="info">
 							<div class="row">
-								<h3>Precondiciones</h3>
-									<ul>
-										<li>Usuario registrado</li>
-										<li>Usuario logeado</li>
-										<li>Proyecto creado</li>
-									</ul>
-								<h3>Condición Final de Éxito</h3>
+								<h3>Nombre</h3>
 								<p>
-									Caso de uso creado
+									Competencia entre cintas verdes
 								</p>
-								<h3>Condición Final de Fallo</h3>
+								<h3>Tipo</h3>
 								<p>
-									El caso de uso no pudo ser creado
+									Competencia
 								</p>
-								<h3>Disparador</h3>
+								<h3>Fecha de inicio</h3>
 								<p>
-									Seleccionar opción "Gestión de Casos de uso" → "Agregar caso de uso" del menú
+									13/10/2015
 								</p>
-								<h3>Escenario Principal de Éxito</h3>
-									<ol>
-										<li>El usuario o admin selecciona la opción "Gestión de Casos de uso" → "Agregar caso de uso" del menú.</li>
-										<li>El sistema despliega la pantalla de obtener los datos del caso de uso.</li>
-										<li>El usuario o admin ingresa los números de los requerimientos asociados.</li>
-										<li>El sistema verifica la existencia de esos requerimientos.</li>
-										<li>El usuario o admin introduce los datos del caso de uso.</li>
-										<li>El sistema registra el caso de uso. Volver paso 2. El CU termina.</li>
-    								</ol>
-								<h3>Extensiones</h3>
+								<h3>Fecha de finalización</h3>
 								<p>
-									4-A. El o los requerimientos no existen.
+									16/10/2015
 								</p>
-								<p style="text-indent: 5em;">
-									A1. Desplegar mensaje de error.
+                                <h3>Locación</h3>
+								<p>
+									Caracas - Dojo SAKARATEDO
 								</p>
-								<p style="text-indent: 5em;">
-									A2. Volver al paso 2. 
-								</p>
+								<h3>Descripción</h3>
+								<p>
+                                    Competencia solo entre cintas verdes en el dojo SAKARATEDO
+    							</p>
 							</div>
 						</div>
 					</div>
@@ -247,55 +208,42 @@
 				<div class="modal-content">
 					<div class="modal-header">
 						<button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
-						<h4 class="modal-title">Información detallada del Caso de Uso 4</h4>
+						<h4 class="modal-title">Información detallada del evento</h4>
 					</div>
 					<div class="modal-body">
 						<div class="container-fluid" id="info">
 							<div class="row">
-								<h3>Precondiciones</h3>
-									<ul>
-										<li>Usuario registrado</li>
-										<li>Usuario logeado</li>
-										<li>Proyecto creado</li>
-									</ul>
-								<h3>Condición Final de Éxito</h3>
+								<h3>Nombre</h3>
 								<p>
-									Caso de uso creado
+									Cuarto encuentro de cintas negras 5to DAN
 								</p>
-								<h3>Condición Final de Fallo</h3>
+								<h3>Tipo</h3>
 								<p>
-									El caso de uso no pudo ser creado
+									Seminario
 								</p>
-								<h3>Disparador</h3>
+								<h3>Fecha de inicio</h3>
 								<p>
-									Seleccionar opción "Gestión de Casos de uso" → "Agregar caso de uso" del menú
+									10/10/2015
 								</p>
-								<h3>Escenario Principal de Éxito</h3>
-									<ol>
-										<li>El usuario o admin selecciona la opción "Gestión de Casos de uso" → "Agregar caso de uso" del menú.</li>
-										<li>El sistema despliega la pantalla de obtener los datos del caso de uso.</li>
-										<li>El usuario o admin ingresa los números de los requerimientos asociados.</li>
-										<li>El sistema verifica la existencia de esos requerimientos.</li>
-										<li>El usuario o admin introduce los datos del caso de uso.</li>
-										<li>El sistema registra el caso de uso. Volver paso 2. El CU termina.</li>
-    								</ol>
-								<h3>Extensiones</h3>
+								<h3>Fecha de finalización</h3>
 								<p>
-									4-A. El o los requerimientos no existen.
+									10/10/2015
 								</p>
-								<p style="text-indent: 5em;">
-									A1. Desplegar mensaje de error.
+                                <h3>Locación</h3>
+								<p>
+									Estado Guarico
 								</p>
-								<p style="text-indent: 5em;">
-									A2. Volver al paso 2. 
-								</p>
+								<h3>Descripción</h3>
+								<p>
+                                    Encuentro entre los cinturones negros de rango 5to Dan
+    							</p>
 							</div>
 						</div>
 					</div>
 				</div>
 			</div>
 		</div>
-
+    
         <script type="text/javascript">
             $(document).ready(function () {
 
