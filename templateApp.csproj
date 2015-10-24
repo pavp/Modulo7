@@ -167,6 +167,7 @@
     <Content Include="GUI\Modulo7\M7_ListarCintas.aspx" />
     <Content Include="GUI\Modulo7\M7_ListarEventosInscritos.aspx" />
     <Content Include="GUI\Modulo7\M7_ListarHorariodePractica.aspx" />
+    <Content Include="GUI\Modulo7\M7_ListarOrganizacionYDojo.aspx" />
     <Content Include="GUI\Modulo7\M7_ListarPagosAEventos.aspx" />
     <Content Include="GUI\Modulo7\M7_ListarPagosDeMatricula.aspx" />
     <Content Include="GUI\Modulo7\M7_Principal.aspx" />
@@ -1156,6 +1157,13 @@
     </Compile>
     <Compile Include="GUI\Modulo7\M7_ListarHorariodePractica.aspx.designer.cs">
       <DependentUpon>M7_ListarHorariodePractica.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="GUI\Modulo7\M7_ListarOrganizacionYDojo.aspx.cs">
+      <DependentUpon>M7_ListarOrganizacionYDojo.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="GUI\Modulo7\M7_ListarOrganizacionYDojo.aspx.designer.cs">
+      <DependentUpon>M7_ListarOrganizacionYDojo.aspx</DependentUpon>
     </Compile>
     <Compile Include="GUI\Modulo7\M7_ListarPagosAEventos.aspx.cs">
       <DependentUpon>M7_ListarPagosAEventos.aspx</DependentUpon>

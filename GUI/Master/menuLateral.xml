@@ -88,6 +88,10 @@
     <modulo id="7"></modulo>
   </opcion>
 
+  <opcion nombre="Consultar Organización y Dojo" link="~/GUI/Modulo7/M7_ListarOrganizacionYDojo.aspx">
+    <modulo id="7"></modulo>
+  </opcion>
+    
   <opcion nombre="Consultar Pago de Eventos" link="~/GUI/Modulo7/M7_ListarPagosAEventos.aspx">
     <modulo id="7"></modulo>
   </opcion>
