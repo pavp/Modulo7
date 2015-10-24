@@ -33,7 +33,7 @@
 			<tbody>
 				<tr>
 					<td class="id">001</td>
-					<td>Quinto encuentro de cintas negras 5to DAN</td>
+					<td>Noveno encuentro de cintas negras 5to DAN</td>
 					<td>Seminario</td>
 					<td>26/01/2016</td>
                     <td>Estado Barinas</td>
@@ -84,48 +84,35 @@
 				<div class="modal-content">
 					<div class="modal-header">
 						<button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
-						<h4 class="modal-title">Información detallada del Caso de Uso 1</h4>
+						<h4 class="modal-title">Información detallada de los eventos inscritos</h4>
 					</div>
 					<div class="modal-body">
 						<div class="container-fluid" id="info">
 							<div class="row">
-								<h3>Precondiciones</h3>
-									<ul>
-										<li>Usuario registrado</li>
-										<li>Usuario logeado</li>
-										<li>Proyecto creado</li>
-									</ul>
-								<h3>Condición Final de Éxito</h3>
+								<h3>Nombre</h3>
 								<p>
-									Caso de uso creado
+								    Noveno encuentro de cintas negras 5to DAN
 								</p>
-								<h3>Condición Final de Fallo</h3>
+								<h3>Tipo</h3>
 								<p>
-									El caso de uso no pudo ser creado
+									Seminario
 								</p>
-								<h3>Disparador</h3>
+								<h3>Fecha de inicio</h3>
 								<p>
-									Seleccionar opción "Gestión de Casos de uso" → "Agregar caso de uso" del menú
+									26/01/2016
 								</p>
-								<h3>Escenario Principal de Éxito</h3>
-									<ol>
-										<li>El usuario o admin selecciona la opción "Gestión de Casos de uso" → "Agregar caso de uso" del menú.</li>
-										<li>El sistema despliega la pantalla de obtener los datos del caso de uso.</li>
-										<li>El usuario o admin ingresa los números de los requerimientos asociados.</li>
-										<li>El sistema verifica la existencia de esos requerimientos.</li>
-										<li>El usuario o admin introduce los datos del caso de uso.</li>
-										<li>El sistema registra el caso de uso. Volver paso 2. El CU termina.</li>
-    								</ol>
-								<h3>Extensiones</h3>
+								<h3>Fecha de finalización</h3>
 								<p>
-									4-A. El o los requerimientos no existen.
+									27/01/2016
 								</p>
-								<p style="text-indent: 5em;">
-									A1. Desplegar mensaje de error.
+                                <h3>Locación</h3>
+								<p>
+									Estado Guárico
 								</p>
-								<p style="text-indent: 5em;">
-									A2. Volver al paso 2. 
-								</p>
+								<h3>Descripción</h3>
+								<p>
+                                    Encuentro de atletas con cinta negra de 5to DAN. 
+    							</p>
 							</div>
 						</div>
 					</div>
@@ -138,48 +125,35 @@
 				<div class="modal-content">
 					<div class="modal-header">
 						<button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
-						<h4 class="modal-title">Información detallada del Caso de Uso 2</h4>
+						<h4 class="modal-title">Información detallada de los eventos inscritos</h4>
 					</div>
 					<div class="modal-body">
 						<div class="container-fluid" id="info">
 							<div class="row">
-								<h3>Precondiciones</h3>
-									<ul>
-										<li>Usuario registrado</li>
-										<li>Usuario logeado</li>
-										<li>Proyecto creado</li>
-									</ul>
-								<h3>Condición Final de Éxito</h3>
+                                <h3>Nombre</h3>
 								<p>
-									Caso de uso creado
+								 Campeonato Nacional 2016
 								</p>
-								<h3>Condición Final de Fallo</h3>
+								<h3>Tipo</h3>
 								<p>
-									El caso de uso no pudo ser creado
+									Competencia
 								</p>
-								<h3>Disparador</h3>
+								<h3>Fecha de inicio</h3>
 								<p>
-									Seleccionar opción "Gestión de Casos de uso" → "Agregar caso de uso" del menú
+									5/06/2016
 								</p>
-								<h3>Escenario Principal de Éxito</h3>
-									<ol>
-										<li>El usuario o admin selecciona la opción "Gestión de Casos de uso" → "Agregar caso de uso" del menú.</li>
-										<li>El sistema despliega la pantalla de obtener los datos del caso de uso.</li>
-										<li>El usuario o admin ingresa los números de los requerimientos asociados.</li>
-										<li>El sistema verifica la existencia de esos requerimientos.</li>
-										<li>El usuario o admin introduce los datos del caso de uso.</li>
-										<li>El sistema registra el caso de uso. Volver paso 2. El CU termina.</li>
-    								</ol>
-								<h3>Extensiones</h3>
+								<h3>Fecha de finalización</h3>
 								<p>
-									4-A. El o los requerimientos no existen.
+									25/06/2016
 								</p>
-								<p style="text-indent: 5em;">
-									A1. Desplegar mensaje de error.
+                                <h3>Locación</h3>
+								<p>
+									Estado Carabobo
 								</p>
-								<p style="text-indent: 5em;">
-									A2. Volver al paso 2. 
-								</p>
+                                <h3>Descripción</h3>
+								<p>
+                                    Competencia para los atletas de cinta negra. 
+    							</p>
 							</div>
 						</div>
 					</div>
@@ -192,48 +166,35 @@
 				<div class="modal-content">
 					<div class="modal-header">
 						<button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
-						<h4 class="modal-title">Información detallada del Caso de Uso 3</h4>
+						<h4 class="modal-title">Información detallada de los eventos inscritos</h4>
 					</div>
 					<div class="modal-body">
 						<div class="container-fluid" id="info">
 							<div class="row">
-								<h3>Precondiciones</h3>
-									<ul>
-										<li>Usuario registrado</li>
-										<li>Usuario logeado</li>
-										<li>Proyecto creado</li>
-									</ul>
-								<h3>Condición Final de Éxito</h3>
+								  <h3>Nombre</h3>
 								<p>
-									Caso de uso creado
+								 IV Jornada de excelencia de Karate Do
 								</p>
-								<h3>Condición Final de Fallo</h3>
+								<h3>Tipo</h3>
 								<p>
-									El caso de uso no pudo ser creado
+									Conferencia
 								</p>
-								<h3>Disparador</h3>
+								<h3>Fecha de inicio</h3>
 								<p>
-									Seleccionar opción "Gestión de Casos de uso" → "Agregar caso de uso" del menú
+									03/12/2015
 								</p>
-								<h3>Escenario Principal de Éxito</h3>
-									<ol>
-										<li>El usuario o admin selecciona la opción "Gestión de Casos de uso" → "Agregar caso de uso" del menú.</li>
-										<li>El sistema despliega la pantalla de obtener los datos del caso de uso.</li>
-										<li>El usuario o admin ingresa los números de los requerimientos asociados.</li>
-										<li>El sistema verifica la existencia de esos requerimientos.</li>
-										<li>El usuario o admin introduce los datos del caso de uso.</li>
-										<li>El sistema registra el caso de uso. Volver paso 2. El CU termina.</li>
-    								</ol>
-								<h3>Extensiones</h3>
+								<h3>Fecha de finalización</h3>
 								<p>
-									4-A. El o los requerimientos no existen.
+									25/06/2016
 								</p>
-								<p style="text-indent: 5em;">
-									A1. Desplegar mensaje de error.
+                                <h3>Locación</h3>
+								<p>
+									Estado Distrito Capital
 								</p>
-								<p style="text-indent: 5em;">
-									A2. Volver al paso 2. 
-								</p>
+                                <h3>Descripción</h3>
+								<p>
+                                    Conferencia para enriquecer el conocimiento y habilidades de los atletas
+    							</p>
 							</div>
 						</div>
 					</div>
@@ -246,48 +207,39 @@
 				<div class="modal-content">
 					<div class="modal-header">
 						<button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
-						<h4 class="modal-title">Información detallada del Caso de Uso 4</h4>
+						<h4 class="modal-title">Información detallada de los eventos inscritos</h4>
 					</div>
 					<div class="modal-body">
 						<div class="container-fluid" id="info">
 							<div class="row">
-								<h3>Precondiciones</h3>
-									<ul>
-										<li>Usuario registrado</li>
-										<li>Usuario logeado</li>
-										<li>Proyecto creado</li>
-									</ul>
-								<h3>Condición Final de Éxito</h3>
+								  <h3>Nombre</h3>
 								<p>
-									Caso de uso creado
+								Entrenamiento Especial de Bujutsu
 								</p>
-								<h3>Condición Final de Fallo</h3>
+								<h3>Tipo</h3>
 								<p>
-									El caso de uso no pudo ser creado
+									Entrenamiento Especial
 								</p>
-								<h3>Disparador</h3>
+								<h3>Fecha de inicio</h3>
 								<p>
-									Seleccionar opción "Gestión de Casos de uso" → "Agregar caso de uso" del menú
+									15/12/2015
 								</p>
-								<h3>Escenario Principal de Éxito</h3>
-									<ol>
-										<li>El usuario o admin selecciona la opción "Gestión de Casos de uso" → "Agregar caso de uso" del menú.</li>
-										<li>El sistema despliega la pantalla de obtener los datos del caso de uso.</li>
-										<li>El usuario o admin ingresa los números de los requerimientos asociados.</li>
-										<li>El sistema verifica la existencia de esos requerimientos.</li>
-										<li>El usuario o admin introduce los datos del caso de uso.</li>
-										<li>El sistema registra el caso de uso. Volver paso 2. El CU termina.</li>
-    								</ol>
-								<h3>Extensiones</h3>
+                                <h3>Horario</h3>
 								<p>
-									4-A. El o los requerimientos no existen.
+								    14:00 - 16:00
 								</p>
-								<p style="text-indent: 5em;">
-									A1. Desplegar mensaje de error.
+                                <h3>Profesor</h3>
+								<p>
+									José Wu
 								</p>
-								<p style="text-indent: 5em;">
-									A2. Volver al paso 2. 
+                                <h3>Salón</h3>
+								<p>
+									S-08
 								</p>
+                                <h3>Descripción</h3>
+								<p>
+                                 Entrenamiento de los elementos del Bujutsu( Golpes, Proyecciones, Luxaciones, Estrangulamiento)
+    							</p>
 							</div>
 						</div>
 					</div>

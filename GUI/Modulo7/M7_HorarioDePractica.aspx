@@ -90,48 +90,35 @@
 				<div class="modal-content">
 					<div class="modal-header">
 						<button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
-						<h4 class="modal-title">Información detallada del Caso de Uso 1</h4>
+						<h4 class="modal-title">Información detallada del horario de práctica </h4>
 					</div>
 					<div class="modal-body">
 						<div class="container-fluid" id="info">
 							<div class="row">
-								<h3>Precondiciones</h3>
-									<ul>
-										<li>Usuario registrado</li>
-										<li>Usuario logeado</li>
-										<li>Proyecto creado</li>
-									</ul>
-								<h3>Condición Final de Éxito</h3>
+                  				<h3>Práctica</h3>
 								<p>
-									Caso de uso creado
+									Tsuki (Golpe)
 								</p>
-								<h3>Condición Final de Fallo</h3>
+								<h3>Profesor</h3>
 								<p>
-									El caso de uso no pudo ser creado
+									José Reyes
 								</p>
-								<h3>Disparador</h3>
+								<h3>Hora de inicio</h3>
 								<p>
-									Seleccionar opción "Gestión de Casos de uso" → "Agregar caso de uso" del menú
+									14:00
 								</p>
-								<h3>Escenario Principal de Éxito</h3>
-									<ol>
-										<li>El usuario o admin selecciona la opción "Gestión de Casos de uso" → "Agregar caso de uso" del menú.</li>
-										<li>El sistema despliega la pantalla de obtener los datos del caso de uso.</li>
-										<li>El usuario o admin ingresa los números de los requerimientos asociados.</li>
-										<li>El sistema verifica la existencia de esos requerimientos.</li>
-										<li>El usuario o admin introduce los datos del caso de uso.</li>
-										<li>El sistema registra el caso de uso. Volver paso 2. El CU termina.</li>
-    								</ol>
-								<h3>Extensiones</h3>
+								<h3>Hora de finalización</h3>
 								<p>
-									4-A. El o los requerimientos no existen.
+									15:30
 								</p>
-								<p style="text-indent: 5em;">
-									A1. Desplegar mensaje de error.
+                                <h3>Día</h3>
+								<p>
+									Lunes
 								</p>
-								<p style="text-indent: 5em;">
-									A2. Volver al paso 2. 
-								</p>
+								<h3>Salón</h3>
+								<p>
+                                    S-03
+    							</p>
 							</div>
 						</div>
 					</div>
@@ -144,48 +131,36 @@
 				<div class="modal-content">
 					<div class="modal-header">
 						<button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
-						<h4 class="modal-title">Información detallada del Caso de Uso 2</h4>
+						<h4 class="modal-title">Información detallada del horario de práctica</h4>
 					</div>
 					<div class="modal-body">
 						<div class="container-fluid" id="info">
 							<div class="row">
-								<h3>Precondiciones</h3>
-									<ul>
-										<li>Usuario registrado</li>
-										<li>Usuario logeado</li>
-										<li>Proyecto creado</li>
-									</ul>
-								<h3>Condición Final de Éxito</h3>
+                                  <td class="id">002</td>
+								<h3>Práctica</h3>
 								<p>
-									Caso de uso creado
+									Dachi (Posición)
 								</p>
-								<h3>Condición Final de Fallo</h3>
+								<h3>Profesor</h3>
 								<p>
-									El caso de uso no pudo ser creado
+									Alejandro Fermín
 								</p>
-								<h3>Disparador</h3>
+								<h3>Hora de inicio</h3>
 								<p>
-									Seleccionar opción "Gestión de Casos de uso" → "Agregar caso de uso" del menú
+									16:00
 								</p>
-								<h3>Escenario Principal de Éxito</h3>
-									<ol>
-										<li>El usuario o admin selecciona la opción "Gestión de Casos de uso" → "Agregar caso de uso" del menú.</li>
-										<li>El sistema despliega la pantalla de obtener los datos del caso de uso.</li>
-										<li>El usuario o admin ingresa los números de los requerimientos asociados.</li>
-										<li>El sistema verifica la existencia de esos requerimientos.</li>
-										<li>El usuario o admin introduce los datos del caso de uso.</li>
-										<li>El sistema registra el caso de uso. Volver paso 2. El CU termina.</li>
-    								</ol>
-								<h3>Extensiones</h3>
+								<h3>Hora de finalización</h3>
 								<p>
-									4-A. El o los requerimientos no existen.
+									17:30
 								</p>
-								<p style="text-indent: 5em;">
-									A1. Desplegar mensaje de error.
+                                <h3>Día</h3>
+								<p>
+									Lunes
 								</p>
-								<p style="text-indent: 5em;">
-									A2. Volver al paso 2. 
-								</p>
+								<h3>Salón</h3>
+								<p>
+                                   S-05
+    							</p>
 							</div>
 						</div>
 					</div>
@@ -198,49 +173,33 @@
 				<div class="modal-content">
 					<div class="modal-header">
 						<button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
-						<h4 class="modal-title">Información detallada del Caso de Uso 3</h4>
+						<h4 class="modal-title">Información detallada del horario de práctica </h4>
 					</div>
-					<div class="modal-body">
-						<div class="container-fluid" id="info">
-							<div class="row">
-								<h3>Precondiciones</h3>
-									<ul>
-										<li>Usuario registrado</li>
-										<li>Usuario logeado</li>
-										<li>Proyecto creado</li>
-									</ul>
-								<h3>Condición Final de Éxito</h3>
+						        <h3>Práctica</h3>
 								<p>
-									Caso de uso creado
+									Uke (Bloqueo)
 								</p>
-								<h3>Condición Final de Fallo</h3>
+								<h3>Profesor</h3>
 								<p>
-									El caso de uso no pudo ser creado
+									Ana K. López
 								</p>
-								<h3>Disparador</h3>
+								<h3>Hora de inicio</h3>
 								<p>
-									Seleccionar opción "Gestión de Casos de uso" → "Agregar caso de uso" del menú
+									14:00
 								</p>
-								<h3>Escenario Principal de Éxito</h3>
-									<ol>
-										<li>El usuario o admin selecciona la opción "Gestión de Casos de uso" → "Agregar caso de uso" del menú.</li>
-										<li>El sistema despliega la pantalla de obtener los datos del caso de uso.</li>
-										<li>El usuario o admin ingresa los números de los requerimientos asociados.</li>
-										<li>El sistema verifica la existencia de esos requerimientos.</li>
-										<li>El usuario o admin introduce los datos del caso de uso.</li>
-										<li>El sistema registra el caso de uso. Volver paso 2. El CU termina.</li>
-    								</ol>
-								<h3>Extensiones</h3>
+								<h3>Hora de finalización</h3>
 								<p>
-									4-A. El o los requerimientos no existen.
+									15:30
 								</p>
-								<p style="text-indent: 5em;">
-									A1. Desplegar mensaje de error.
+                                <h3>Día</h3>
+								<p>
+									Miércoles
 								</p>
-								<p style="text-indent: 5em;">
-									A2. Volver al paso 2. 
-								</p>
-							</div>
+								<h3>Salón</h3>
+								<p>
+                                    S-02
+    							</p>
+                            </div>
 						</div>
 					</div>
 				</div>
@@ -252,48 +211,35 @@
 				<div class="modal-content">
 					<div class="modal-header">
 						<button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
-						<h4 class="modal-title">Información detallada del Caso de Uso 4</h4>
+						<h4 class="modal-title">Información detallada del horario de práctica</h4>
 					</div>
 					<div class="modal-body">
 						<div class="container-fluid" id="info">
 							<div class="row">
-								<h3>Precondiciones</h3>
-									<ul>
-										<li>Usuario registrado</li>
-										<li>Usuario logeado</li>
-										<li>Proyecto creado</li>
-									</ul>
-								<h3>Condición Final de Éxito</h3>
+									<h3>Práctica</h3>
 								<p>
-									Caso de uso creado
+									Kata (Forma)
 								</p>
-								<h3>Condición Final de Fallo</h3>
+								<h3>Profesor</h3>
 								<p>
-									El caso de uso no pudo ser creado
+									Luisa E. López
 								</p>
-								<h3>Disparador</h3>
+								<h3>Hora de inicio</h3>
 								<p>
-									Seleccionar opción "Gestión de Casos de uso" → "Agregar caso de uso" del menú
+									16:00
 								</p>
-								<h3>Escenario Principal de Éxito</h3>
-									<ol>
-										<li>El usuario o admin selecciona la opción "Gestión de Casos de uso" → "Agregar caso de uso" del menú.</li>
-										<li>El sistema despliega la pantalla de obtener los datos del caso de uso.</li>
-										<li>El usuario o admin ingresa los números de los requerimientos asociados.</li>
-										<li>El sistema verifica la existencia de esos requerimientos.</li>
-										<li>El usuario o admin introduce los datos del caso de uso.</li>
-										<li>El sistema registra el caso de uso. Volver paso 2. El CU termina.</li>
-    								</ol>
-								<h3>Extensiones</h3>
+								<h3>Hora de finalización</h3>
 								<p>
-									4-A. El o los requerimientos no existen.
+									17:30
 								</p>
-								<p style="text-indent: 5em;">
-									A1. Desplegar mensaje de error.
+                                <h3>Día</h3>
+								<p>
+									Jueves
 								</p>
-								<p style="text-indent: 5em;">
-									A2. Volver al paso 2. 
-								</p>
+								<h3>Salón</h3>
+								<p>
+                                   S-04
+    							</p>
 							</div>
 						</div>
 					</div>
