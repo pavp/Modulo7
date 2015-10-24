@@ -70,7 +70,11 @@
 
 
   <!--OPCIONES DE MODULO 7-->
-  
+
+  <opcion nombre="Consultar Cintas" link="~/GUI/Modulo7/M7_ListarCintas.aspx">
+    <modulo id="7"></modulo>
+  </opcion>
+
   <opcion nombre="Consultar Eventos Asistidos" link="~/GUI/Modulo7/M7_ListarAsistenciaAEventos.aspx">
    <modulo id="7"></modulo>
       </opcion> 
