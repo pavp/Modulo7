@@ -1,4 +1,4 @@
-﻿<%@ Page Title="" Language="C#" MasterPageFile="~/GUI/Master/SKD.Master" AutoEventWireup="true" CodeBehind="M7_ListarAsistenciaAEventos.aspx.cs" Inherits="templateApp.GUI.Modulo7.M7_ListarAsistenciaAEventos" %>
+﻿<%@ Page Title="" Language="C#" MasterPageFile="~/GUI/Master/SKD.Master" AutoEventWireup="true" CodeBehind="M7_ListarHorarioDePractica.aspx.cs" Inherits="templateApp.GUI.Modulo7.M7_ListarAsistenciaAEventos" %>
 <asp:Content ID="Content1" ContentPlaceHolderID="head" runat="server">
 </asp:Content>
 <asp:Content ID="Content2" ContentPlaceHolderID="titulo" runat="server"> Horario de Práctica

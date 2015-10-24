@@ -7,7 +7,7 @@ using System.Web.UI.WebControls;
 
 namespace templateApp.GUI.Modulo7
 {
-    public partial class M7_HorarioDePractica : System.Web.UI.Page
+    public partial class ListarHorarioDePractica : System.Web.UI.Page
     {
         protected void Page_Load(object sender, EventArgs e)
         {

@@ -1,4 +1,4 @@
-﻿<%@ Page Title="" Language="C#" MasterPageFile="~/GUI/Master/SKD.Master" AutoEventWireup="true" CodeBehind="M7_ListarAsistenciaAEventos.aspx.cs" Inherits="templateApp.GUI.Modulo7.M7_ListarAsistenciaAEventos" %>
+﻿<%@ Page Title="" Language="C#" MasterPageFile="~/GUI/Master/SKD.Master" AutoEventWireup="true" CodeBehind="M7_ListarEventosInscritos.aspx.cs" Inherits="templateApp.GUI.Modulo7.M7_ListarEventosInscritos1" %>
 <asp:Content ID="Content1" ContentPlaceHolderID="head" runat="server">
 </asp:Content>
 <asp:Content ID="Content2" ContentPlaceHolderID="titulo" runat="server"> Eventos Inscritos
@@ -143,7 +143,7 @@
 								</p>
 								<h3>Fecha de inicio</h3>
 								<p>
-									5/06/2016
+									15/06/2016
 								</p>
 								<h3>Fecha de finalización</h3>
 								<p>

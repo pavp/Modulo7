@@ -163,10 +163,10 @@
     <Content Include="GUI\Modulo4\M4_Prueba.aspx" />
     <Content Include="GUI\Modulo5\M5_Prueba.aspx" />
     <Content Include="GUI\Modulo6\M6_Prueba.aspx" />
-    <Content Include="GUI\Modulo7\M7_HorarioDePractica.aspx" />
+    <Content Include="GUI\Modulo7\M7_ListarEventosInscritos.aspx" />
+    <Content Include="GUI\Modulo7\M7_ListarHorarioDePractica.aspx" />
     <Content Include="GUI\Modulo7\M7_ListarAsistenciaAEventos.aspx" />
     <Content Include="GUI\Modulo7\M7_ListarCintas.aspx" />
-    <Content Include="GUI\Modulo7\M7_ListarEventosInscritos.aspx" />
     <Content Include="GUI\Modulo7\M7_ListarPagosAEventos.aspx" />
     <Content Include="GUI\Modulo7\M7_ListarPagosDeMatrícula.aspx" />
     <Content Include="GUI\Modulo7\M7_Principal.aspx" />
@@ -1129,12 +1129,19 @@
     <Compile Include="GUI\Modulo6\M6_Prueba.aspx.designer.cs">
       <DependentUpon>M6_Prueba.aspx</DependentUpon>
     </Compile>
-    <Compile Include="GUI\Modulo7\M7_HorarioDePractica.aspx.cs">
-      <DependentUpon>M7_HorarioDePractica.aspx</DependentUpon>
+    <Compile Include="GUI\Modulo7\M7_ListarEventosInscritos.aspx.cs">
+      <DependentUpon>M7_ListarEventosInscritos.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
-    <Compile Include="GUI\Modulo7\M7_HorarioDePractica.aspx.designer.cs">
-      <DependentUpon>M7_HorarioDePractica.aspx</DependentUpon>
+    <Compile Include="GUI\Modulo7\M7_ListarEventosInscritos.aspx.designer.cs">
+      <DependentUpon>M7_ListarEventosInscritos.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="GUI\Modulo7\M7_ListarHorarioDePractica.aspx.cs">
+      <DependentUpon>M7_ListarHorarioDePractica.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="GUI\Modulo7\M7_ListarHorarioDePractica.aspx.designer.cs">
+      <DependentUpon>M7_ListarHorarioDePractica.aspx</DependentUpon>
     </Compile>
     <Compile Include="GUI\Modulo7\M7_ListarAsistenciaAEventos.aspx.cs">
       <DependentUpon>M7_ListarAsistenciaAEventos.aspx</DependentUpon>
@@ -1149,13 +1156,6 @@
     </Compile>
     <Compile Include="GUI\Modulo7\M7_ListarCintas.aspx.designer.cs">
       <DependentUpon>M7_ListarCintas.aspx</DependentUpon>
-    </Compile>
-    <Compile Include="GUI\Modulo7\M7_ListarEventosInscritos.aspx.cs">
-      <DependentUpon>M7_ListarEventosInscritos.aspx</DependentUpon>
-      <SubType>ASPXCodeBehind</SubType>
-    </Compile>
-    <Compile Include="GUI\Modulo7\M7_ListarEventosInscritos.aspx.designer.cs">
-      <DependentUpon>M7_ListarEventosInscritos.aspx</DependentUpon>
     </Compile>
     <Compile Include="GUI\Modulo7\M7_ListarPagosAEventos.aspx.cs">
       <DependentUpon>M7_ListarPagosAEventos.aspx</DependentUpon>
