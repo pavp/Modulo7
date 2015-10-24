@@ -1,7 +1,7 @@
 ﻿<%@ Page Title="" Language="C#" MasterPageFile="~/GUI/Master/SKD.Master" AutoEventWireup="true" CodeBehind="M7_ListarPagosDeMatrícula.aspx.cs" Inherits="templateApp.GUI.Modulo7.M7_ListarAsistenciaAEventos" %>
 <asp:Content ID="Content1" ContentPlaceHolderID="head" runat="server">
 </asp:Content>
-<asp:Content ID="Content2" ContentPlaceHolderID="titulo" runat="server"> Historial de Pagos de matrícula
+<asp:Content ID="Content2" ContentPlaceHolderID="titulo" runat="server"> Historial de Pagos de Matrícula
 </asp:Content>
 <asp:Content ID="Content3" ContentPlaceHolderID="subtitulo" runat="server">Lista de los pagos que se han efectuado
 </asp:Content>
@@ -23,11 +23,11 @@
        <table id="example" class="table table-bordered table-striped dataTable">
         <thead>
 				<tr>
-                    <th>ID</th>
-					<th>Pago de</th>
-                    <th>Mes de pago</th>
+                    <th>Factura</th>
+					<th>Detalle</th>
+                    <th>Período</th>
                     <th>Fecha</th>
-					<th>Monto</th>
+					<th>Pago</th>
               
 					<th style="text-align:right;">Acciones</th>
 				</tr>
@@ -86,102 +86,83 @@
 				<div class="modal-content">
 					<div class="modal-header">
 						<button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
-						<h4 class="modal-title">Información detallada del Caso de Uso 1</h4>
+						<h4 class="modal-title">Información detallada del pago</h4>
 					</div>
 					<div class="modal-body">
 						<div class="container-fluid" id="info">
 							<div class="row">
-								<h3>Precondiciones</h3>
-									<ul>
-										<li>Usuario registrado</li>
-										<li>Usuario logeado</li>
-										<li>Proyecto creado</li>
-									</ul>
-								<h3>Condición Final de Éxito</h3>
+								<h3>Número de factura</h3>
 								<p>
-									Caso de uso creado
-								</p>
-								<h3>Condición Final de Fallo</h3>
+									001
+								</p>	
+								<h3>Detalle</h3>
 								<p>
-									El caso de uso no pudo ser creado
+									Inscripción
 								</p>
-								<h3>Disparador</h3>
+                                <h3>Organización</h3>
 								<p>
-									Seleccionar opción "Gestión de Casos de uso" → "Agregar caso de uso" del menú
+									Keishin Kai Shito Ryu
 								</p>
-								<h3>Escenario Principal de Éxito</h3>
-									<ol>
-										<li>El usuario o admin selecciona la opción "Gestión de Casos de uso" → "Agregar caso de uso" del menú.</li>
-										<li>El sistema despliega la pantalla de obtener los datos del caso de uso.</li>
-										<li>El usuario o admin ingresa los números de los requerimientos asociados.</li>
-										<li>El sistema verifica la existencia de esos requerimientos.</li>
-										<li>El usuario o admin introduce los datos del caso de uso.</li>
-										<li>El sistema registra el caso de uso. Volver paso 2. El CU termina.</li>
-    								</ol>
-								<h3>Extensiones</h3>
+								<h3>Fecha de pago</h3>
 								<p>
-									4-A. El o los requerimientos no existen.
+									01/10/2015
 								</p>
-								<p style="text-indent: 5em;">
-									A1. Desplegar mensaje de error.
+                                <h3>Período</h3>
+								<p>
+									Julio
 								</p>
-								<p style="text-indent: 5em;">
-									A2. Volver al paso 2. 
+								<h3>Monto del pago</h3>
+								<p>
+									8.000 Bsf
 								</p>
+								<h3>Descripcíón</h3>
+								<p>
+									Cancelado el monto de la inscripción
+								</p>	
 							</div>
 						</div>
 					</div>
 				</div>
 			</div>
 		</div>
-
     <div id="modal-info2" class="modal fade" role="dialog" aria-labelledby="gridSystemModalLabel" aria-hidden="true">
 			<div class="modal-dialog">
 				<div class="modal-content">
 					<div class="modal-header">
 						<button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
-						<h4 class="modal-title">Información detallada del Caso de Uso 2</h4>
+						<h4 class="modal-title">Información detallada del pago</h4>
 					</div>
 					<div class="modal-body">
 						<div class="container-fluid" id="info">
 							<div class="row">
-								<h3>Precondiciones</h3>
-									<ul>
-										<li>Usuario registrado</li>
-										<li>Usuario logeado</li>
-										<li>Proyecto creado</li>
-									</ul>
-								<h3>Condición Final de Éxito</h3>
+								<h3>Número de factura</h3>
 								<p>
-									Caso de uso creado
-								</p>
-								<h3>Condición Final de Fallo</h3>
+									002
+								</p>	
+								<h3>Detalle</h3>
 								<p>
-									El caso de uso no pudo ser creado
+									Inscripción
 								</p>
-								<h3>Disparador</h3>
+                                <h3>Organización</h3>
 								<p>
-									Seleccionar opción "Gestión de Casos de uso" → "Agregar caso de uso" del menú
+									Keishin Kai Shito Ryu
 								</p>
-								<h3>Escenario Principal de Éxito</h3>
-									<ol>
-										<li>El usuario o admin selecciona la opción "Gestión de Casos de uso" → "Agregar caso de uso" del menú.</li>
-										<li>El sistema despliega la pantalla de obtener los datos del caso de uso.</li>
-										<li>El usuario o admin ingresa los números de los requerimientos asociados.</li>
-										<li>El sistema verifica la existencia de esos requerimientos.</li>
-										<li>El usuario o admin introduce los datos del caso de uso.</li>
-										<li>El sistema registra el caso de uso. Volver paso 2. El CU termina.</li>
-    								</ol>
-								<h3>Extensiones</h3>
+								<h3>Fecha de pago</h3>
 								<p>
-									4-A. El o los requerimientos no existen.
+									07/10/2015
 								</p>
-								<p style="text-indent: 5em;">
-									A1. Desplegar mensaje de error.
+                                <h3>Período</h3>
+								<p>
+									Agosto
 								</p>
-								<p style="text-indent: 5em;">
-									A2. Volver al paso 2. 
+								<h3>Monto del pago</h3>
+								<p>
+									3.280 Bsf
 								</p>
+								<h3>Descripcíón</h3>
+								<p>
+									Cancelado el monto de la mensualidad de agosto
+								</p>	
 							</div>
 						</div>
 					</div>
@@ -194,102 +175,83 @@
 				<div class="modal-content">
 					<div class="modal-header">
 						<button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
-						<h4 class="modal-title">Información detallada del Caso de Uso 3</h4>
+						<h4 class="modal-title">Información detallada del pago</h4>
 					</div>
 					<div class="modal-body">
 						<div class="container-fluid" id="info">
 							<div class="row">
-								<h3>Precondiciones</h3>
-									<ul>
-										<li>Usuario registrado</li>
-										<li>Usuario logeado</li>
-										<li>Proyecto creado</li>
-									</ul>
-								<h3>Condición Final de Éxito</h3>
+								<h3>Número de factura</h3>
 								<p>
-									Caso de uso creado
-								</p>
-								<h3>Condición Final de Fallo</h3>
+									003
+								</p>	
+								<h3>Detalle</h3>
 								<p>
-									El caso de uso no pudo ser creado
+									Inscripción
 								</p>
-								<h3>Disparador</h3>
+                                <h3>Organización</h3>
 								<p>
-									Seleccionar opción "Gestión de Casos de uso" → "Agregar caso de uso" del menú
+									Keishin Kai Shito Ryu
 								</p>
-								<h3>Escenario Principal de Éxito</h3>
-									<ol>
-										<li>El usuario o admin selecciona la opción "Gestión de Casos de uso" → "Agregar caso de uso" del menú.</li>
-										<li>El sistema despliega la pantalla de obtener los datos del caso de uso.</li>
-										<li>El usuario o admin ingresa los números de los requerimientos asociados.</li>
-										<li>El sistema verifica la existencia de esos requerimientos.</li>
-										<li>El usuario o admin introduce los datos del caso de uso.</li>
-										<li>El sistema registra el caso de uso. Volver paso 2. El CU termina.</li>
-    								</ol>
-								<h3>Extensiones</h3>
+								<h3>Fecha de pago</h3>
 								<p>
-									4-A. El o los requerimientos no existen.
+									02/11/2015
 								</p>
-								<p style="text-indent: 5em;">
-									A1. Desplegar mensaje de error.
+                                <h3>Período</h3>
+								<p>
+									Septiembre
 								</p>
-								<p style="text-indent: 5em;">
-									A2. Volver al paso 2. 
+								<h3>Monto del pago</h3>
+								<p>
+									2.000 Bsf
 								</p>
+								<h3>Descripcíón</h3>
+								<p>
+									Cancelado el monto de la mensualidad de septiembre
+								</p>	
 							</div>
 						</div>
 					</div>
 				</div>
 			</div>
 		</div>
-
     <div id="modal-info4" class="modal fade" role="dialog" aria-labelledby="gridSystemModalLabel" aria-hidden="true">
 			<div class="modal-dialog">
 				<div class="modal-content">
 					<div class="modal-header">
 						<button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
-						<h4 class="modal-title">Información detallada del Caso de Uso 4</h4>
+						<h4 class="modal-title">Información detallada del pago</h4>
 					</div>
 					<div class="modal-body">
 						<div class="container-fluid" id="info">
 							<div class="row">
-								<h3>Precondiciones</h3>
-									<ul>
-										<li>Usuario registrado</li>
-										<li>Usuario logeado</li>
-										<li>Proyecto creado</li>
-									</ul>
-								<h3>Condición Final de Éxito</h3>
+								<h3>Número de factura</h3>
 								<p>
-									Caso de uso creado
-								</p>
-								<h3>Condición Final de Fallo</h3>
+									004
+								</p>	
+								<h3>Detalle</h3>
 								<p>
-									El caso de uso no pudo ser creado
+									Mensualidad
 								</p>
-								<h3>Disparador</h3>
+                                <h3>Organización</h3>
 								<p>
-									Seleccionar opción "Gestión de Casos de uso" → "Agregar caso de uso" del menú
+									Keishin Kai Shito Ryu
 								</p>
-								<h3>Escenario Principal de Éxito</h3>
-									<ol>
-										<li>El usuario o admin selecciona la opción "Gestión de Casos de uso" → "Agregar caso de uso" del menú.</li>
-										<li>El sistema despliega la pantalla de obtener los datos del caso de uso.</li>
-										<li>El usuario o admin ingresa los números de los requerimientos asociados.</li>
-										<li>El sistema verifica la existencia de esos requerimientos.</li>
-										<li>El usuario o admin introduce los datos del caso de uso.</li>
-										<li>El sistema registra el caso de uso. Volver paso 2. El CU termina.</li>
-    								</ol>
-								<h3>Extensiones</h3>
+								<h3>Fecha de pago</h3>
 								<p>
-									4-A. El o los requerimientos no existen.
+									05/11/2015
 								</p>
-								<p style="text-indent: 5em;">
-									A1. Desplegar mensaje de error.
+                                <h3>Período</h3>
+								<p>
+									Octubre
 								</p>
-								<p style="text-indent: 5em;">
-									A2. Volver al paso 2. 
+								<h3>Monto del pago</h3>
+								<p>
+									4.285 Bsf
 								</p>
+								<h3>Descripcíón</h3>
+								<p>
+									Cancelado el monto de la mensualidad de octubre
+								</p>	
 							</div>
 						</div>
 					</div>

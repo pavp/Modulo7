@@ -47,7 +47,7 @@
 					<td>Clase de kata</td>
 					<td>Entrenamiento Especial</td>
 					<td>01/11/2015</td>
-                    <td>Distrito Capital</td>
+                    <td>Estado Distrito Capital</td>
                     <td>
                         <a class="btn btn-primary glyphicon glyphicon-info-sign" data-toggle="modal" data-target="#modal-info2" href="#"></a>
                      </td>
@@ -56,7 +56,7 @@
 					<td>Competencia entre cintas blancas</td>
 					<td>Competencia</td>
 					<td>13/10/2015</td>
-                    <td>Distrito Capital - Dojo SAKARATEDO</td>
+                    <td>Estado Distrito Capital</td>
                     <td>
                         <a class="btn btn-primary glyphicon glyphicon-info-sign" data-toggle="modal" data-target="#modal-info3" href="#"></a>
                      </td>
