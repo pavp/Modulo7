@@ -71,7 +71,7 @@
 
   <!--OPCIONES DE MODULO 7-->
   
-  <opcion nombre="" link="~/GUI/Modulo7/">
+  <opcion nombre="Consultar Eventos Asistidos" link="~/GUI/Modulo7/M7_ListarAsistenciaAEventos.aspx">
     <modulo id="7"></modulo>
   </opcion>
   
