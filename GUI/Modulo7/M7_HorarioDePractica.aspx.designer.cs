@@ -11,7 +11,7 @@ namespace templateApp.GUI.Modulo7
 {
 
 
-    public partial class M7_ListarEventosInscritos
+    public partial class M7_HorarioDePractica
     {
 
         /// <summary>

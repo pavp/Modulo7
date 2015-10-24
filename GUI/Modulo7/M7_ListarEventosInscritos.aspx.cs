@@ -7,11 +7,11 @@ using System.Web.UI.WebControls;
 
 namespace templateApp.GUI.Modulo7
 {
-    public partial class M7_ListarEventosInscritos1 : System.Web.UI.Page
+    public partial class M7_ListarEventosInscritos : System.Web.UI.Page
     {
         protected void Page_Load(object sender, EventArgs e)
         {
-            ((SKD)Page.Master).IdModulo = "7.1";
+
         }
     }
 }
