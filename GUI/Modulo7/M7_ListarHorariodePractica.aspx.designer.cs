@@ -10,7 +10,7 @@
 namespace templateApp.GUI.Modulo7 {
     
     
-    public partial class M7_ListarAsistenciaAEventos {
+    public partial class M7_ListarHorariodePractica {
         
         /// <summary>
         /// alert control.

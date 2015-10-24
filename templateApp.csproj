@@ -163,12 +163,12 @@
     <Content Include="GUI\Modulo4\M4_Prueba.aspx" />
     <Content Include="GUI\Modulo5\M5_Prueba.aspx" />
     <Content Include="GUI\Modulo6\M6_Prueba.aspx" />
-    <Content Include="GUI\Modulo7\M7_HorarioDePractica.aspx" />
     <Content Include="GUI\Modulo7\M7_ListarAsistenciaAEventos.aspx" />
     <Content Include="GUI\Modulo7\M7_ListarCintas.aspx" />
     <Content Include="GUI\Modulo7\M7_ListarEventosInscritos.aspx" />
+    <Content Include="GUI\Modulo7\M7_ListarHorariodePractica.aspx" />
     <Content Include="GUI\Modulo7\M7_ListarPagosAEventos.aspx" />
-    <Content Include="GUI\Modulo7\M7_ListarPagosDeMatrícula.aspx" />
+    <Content Include="GUI\Modulo7\M7_ListarPagosDeMatricula.aspx" />
     <Content Include="GUI\Modulo7\M7_Principal.aspx" />
     <Content Include="GUI\Modulo8\M8_Prueba.aspx" />
     <Content Include="GUI\Modulo9\M9_Prueba.aspx" />
@@ -1129,13 +1129,6 @@
     <Compile Include="GUI\Modulo6\M6_Prueba.aspx.designer.cs">
       <DependentUpon>M6_Prueba.aspx</DependentUpon>
     </Compile>
-    <Compile Include="GUI\Modulo7\M7_HorarioDePractica.aspx.cs">
-      <DependentUpon>M7_HorarioDePractica.aspx</DependentUpon>
-      <SubType>ASPXCodeBehind</SubType>
-    </Compile>
-    <Compile Include="GUI\Modulo7\M7_HorarioDePractica.aspx.designer.cs">
-      <DependentUpon>M7_HorarioDePractica.aspx</DependentUpon>
-    </Compile>
     <Compile Include="GUI\Modulo7\M7_ListarAsistenciaAEventos.aspx.cs">
       <DependentUpon>M7_ListarAsistenciaAEventos.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
@@ -1157,6 +1150,13 @@
     <Compile Include="GUI\Modulo7\M7_ListarEventosInscritos.aspx.designer.cs">
       <DependentUpon>M7_ListarEventosInscritos.aspx</DependentUpon>
     </Compile>
+    <Compile Include="GUI\Modulo7\M7_ListarHorariodePractica.aspx.cs">
+      <DependentUpon>M7_ListarHorariodePractica.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="GUI\Modulo7\M7_ListarHorariodePractica.aspx.designer.cs">
+      <DependentUpon>M7_ListarHorariodePractica.aspx</DependentUpon>
+    </Compile>
     <Compile Include="GUI\Modulo7\M7_ListarPagosAEventos.aspx.cs">
       <DependentUpon>M7_ListarPagosAEventos.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
@@ -1164,12 +1164,12 @@
     <Compile Include="GUI\Modulo7\M7_ListarPagosAEventos.aspx.designer.cs">
       <DependentUpon>M7_ListarPagosAEventos.aspx</DependentUpon>
     </Compile>
-    <Compile Include="GUI\Modulo7\M7_ListarPagosDeMatrícula.aspx.cs">
-      <DependentUpon>M7_ListarPagosDeMatrícula.aspx</DependentUpon>
+    <Compile Include="GUI\Modulo7\M7_ListarPagosDeMatricula.aspx.cs">
+      <DependentUpon>M7_ListarPagosDeMatricula.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
-    <Compile Include="GUI\Modulo7\M7_ListarPagosDeMatrícula.aspx.designer.cs">
-      <DependentUpon>M7_ListarPagosDeMatrícula.aspx</DependentUpon>
+    <Compile Include="GUI\Modulo7\M7_ListarPagosDeMatricula.aspx.designer.cs">
+      <DependentUpon>M7_ListarPagosDeMatricula.aspx</DependentUpon>
     </Compile>
     <Compile Include="GUI\Modulo7\M7_Principal.aspx.cs">
       <DependentUpon>M7_Principal.aspx</DependentUpon>

@@ -1,4 +1,4 @@
-﻿<%@ Page Title="" Language="C#" MasterPageFile="~/GUI/Master/SKD.Master" AutoEventWireup="true" CodeBehind="M7_ListarPagosDeMatrícula.aspx.cs" Inherits="templateApp.GUI.Modulo7.M7_ListarAsistenciaAEventos" %>
+﻿<%@ Page Title="" Language="C#" MasterPageFile="~/GUI/Master/SKD.Master" AutoEventWireup="true" CodeBehind="M7_ListarPagosDeMatricula.aspx.cs" Inherits="templateApp.GUI.Modulo7.M7_ListarPagosDeMatricula" %>
 <asp:Content ID="Content1" ContentPlaceHolderID="head" runat="server">
 </asp:Content>
 <asp:Content ID="Content2" ContentPlaceHolderID="titulo" runat="server"> Historial de Pagos de Matrícula
@@ -303,3 +303,4 @@
         </script>
 
 </asp:Content>
+
