@@ -166,6 +166,8 @@
     <Content Include="GUI\Modulo7\M7_HorarioDePractica.aspx" />
     <Content Include="GUI\Modulo7\M7_ListarAsistenciaAEventos.aspx" />
     <Content Include="GUI\Modulo7\M7_ListarEventosInscritos.aspx" />
+    <Content Include="GUI\Modulo7\M7_ListarPagosAEventos.aspx" />
+    <Content Include="GUI\Modulo7\M7_ListarPagosDeMatrícula.aspx" />
     <Content Include="GUI\Modulo7\M7_Principal.aspx" />
     <Content Include="GUI\Modulo8\M8_Prueba.aspx" />
     <Content Include="GUI\Modulo9\M9_Prueba.aspx" />
@@ -1146,6 +1148,18 @@
     </Compile>
     <Compile Include="GUI\Modulo7\M7_ListarEventosInscritos.aspx.designer.cs">
       <DependentUpon>M7_ListarEventosInscritos.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="GUI\Modulo7\M7_ListarPagosAEventos.aspx.cs">
+      <DependentUpon>M7_ListarPagosAEventos.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="GUI\Modulo7\M7_ListarPagosAEventos.aspx.designer.cs">
+      <DependentUpon>M7_ListarPagosAEventos.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="GUI\Modulo7\M7_ListarPagosDeMatrícula.aspx.cs">
+      <DependentUpon>M7_ListarPagosDeMatrícula.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="GUI\Modulo7\M7_ListarPagosDeMatrícula.aspx.designer.cs">
+      <DependentUpon>M7_ListarPagosDeMatrícula.aspx</DependentUpon>
     </Compile>
     <Compile Include="GUI\Modulo7\M7_Principal.aspx.cs">
       <DependentUpon>M7_Principal.aspx</DependentUpon>
