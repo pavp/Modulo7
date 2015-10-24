@@ -107,7 +107,10 @@
 								</p>
                                 <h3>Locación</h3>
 								<p>
-									Estado Guárico
+									<ul>
+                                        <li>Estado: Guárico</li>
+                                        <li>Ciudad: San Juan de los Morros </li>
+									</ul>
 								</p>
 								<h3>Descripción</h3>
 								<p>
@@ -148,7 +151,10 @@
 								</p>
                                 <h3>Locación</h3>
 								<p>
-									Estado Carabobo
+									<ul>
+                                        <li>Estado: Carabobo</li>
+                                        <li>Ciudad: Valencia </li>
+									</ul>
 								</p>
                                 <h3>Descripción</h3>
 								<p>
@@ -189,7 +195,10 @@
 								</p>
                                 <h3>Locación</h3>
 								<p>
-									Estado Distrito Capital
+									<ul>
+                                        <li>Estado: Distrito Capital</li>
+                                        <li>Ciudad: Caracas </li>
+									</ul>
 								</p>
                                 <h3>Descripción</h3>
 								<p>
