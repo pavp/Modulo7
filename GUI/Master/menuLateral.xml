@@ -75,16 +75,13 @@
     <modulo id="7"></modulo>
   </opcion>
 
-  <opcion nombre="Consultar Eventos" link="~/GUI/Modulo7/M7_Principal.aspx">
-    <modulo id="7"></modulo>
-  </opcion>
 
   <opcion nombre="Consultar Eventos Asistidos" link="~/GUI/Modulo7/M7_ListarAsistenciaAEventos.aspx">
-   <modulo id="72"></modulo>
+   <modulo id="7"></modulo>
       </opcion> 
   
   <opcion nombre="Consultar Eventos Inscritos" link="~/GUI/Modulo7/M7_ListarEventosInscritos.aspx">
-    <modulo id="72"></modulo>
+    <modulo id="7"></modulo>
   </opcion>
 
   <opcion nombre="Consultar Horario de Práctica" link="~/GUI/Modulo7/M7_ListarHorarioDePractica.aspx">
