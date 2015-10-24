@@ -34,7 +34,7 @@
 			<tbody>
 				<tr>
 					<td class="id">001</td>
-					<td>Octavo encuentro de cintas negras 4to DAN</td>
+					<td>Octavo encuentro de cintas amarillas 2do kyu</td>
 					<td>Seminario</td>
 					<td>24/10/2015</td>
                     <td>Estado Guarico</td>
@@ -45,27 +45,27 @@
                 <tr>
                     <td class="id">002</td>
 					<td>Clase de kata</td>
-					<td>Clase Especial</td>
+					<td>Entrenamiento Especial</td>
 					<td>01/11/2015</td>
-                    <td>Caracas</td>
+                    <td>Distrito Capital</td>
                     <td>
                         <a class="btn btn-primary glyphicon glyphicon-info-sign" data-toggle="modal" data-target="#modal-info2" href="#"></a>
                      </td>
 				</tr><tr>
                     <td class="id">003</td>
-					<td>Competencia entre cintas verdes</td>
+					<td>Competencia entre cintas blancas</td>
 					<td>Competencia</td>
 					<td>13/10/2015</td>
-                    <td>Caracas - Dojo SAKARATEDO</td>
+                    <td>Distrito Capital - Dojo SAKARATEDO</td>
                     <td>
                         <a class="btn btn-primary glyphicon glyphicon-info-sign" data-toggle="modal" data-target="#modal-info3" href="#"></a>
                      </td>
                 </tr>
                 <tr>
                     <td class="id">004</td>
-					<td>Cuarto encuentro de cintas negras 5to DAN</td>
+					<td>Cuarto encuentro de cintas blancas 1er kyu</td>
 					<td>Seminario</td>
-					<td>10/10/2015</td>
+					<td>10/05/2015</td>
                     <td>Estado Guarico</td>
                     <td>
                         <a class="btn btn-primary glyphicon glyphicon-info-sign" data-toggle="modal" data-target="#modal-info4" href="#"></a>
@@ -92,7 +92,7 @@
 							<div class="row">
 								<h3>Nombre</h3>
 								<p>
-									Octavo encuentro de cintas negras 8vo DAN
+									Octavo encuentro de cintas amarillas 2do kyu
 								</p>
 								<h3>Tipo</h3>
 								<p>
@@ -107,12 +107,13 @@
 									26/10/2015
 								</p>
                                 <h3>Locación</h3>
-								<p>
-									Estado Guarico
-								</p>
+								<ul>
+									<li>Estado: Guarico</li>
+									<li>Ciudad: San Juan de los Morros</li>
+								</ul>
 								<h3>Descripción</h3>
 								<p>
-                                    Encuentro entre los cinturones negros de rango 8vo Dan
+                                    Encuentro entre los cinturones amarillos de rango 2do Kyu
     							</p>
 							</div>
 						</div>
@@ -137,7 +138,7 @@
 								</p>
 								<h3>Tipo</h3>
 								<p>
-									Clase especial
+									Entrenamiento especial
 								</p>
 								<h3>Fecha de inicio</h3>
 								<p>
@@ -148,8 +149,22 @@
 									01/11/2015
 								</p>
                                 <h3>Locación</h3>
+								<ul>
+									<li>Estado: Distrito Capital</li>
+									<li>Ciudad: Caracas</li>
+									<li>Dojo: SAKARATEDO</li>
+								</ul>
+                                <h3>Profesor</h3>
 								<p>
-									Caracas
+									Juan Biltorgo
+								</p>
+                                <h3>Hora</h3>
+								<p>
+									8:00 pm
+								</p>
+                                <h3>Salón</h3>
+								<p>
+									A556
 								</p>
 								<h3>Descripción</h3>
 								<p>
@@ -174,7 +189,7 @@
 							<div class="row">
 								<h3>Nombre</h3>
 								<p>
-									Competencia entre cintas verdes
+									Competencia entre cintas blancas
 								</p>
 								<h3>Tipo</h3>
 								<p>
@@ -182,19 +197,35 @@
 								</p>
 								<h3>Fecha de inicio</h3>
 								<p>
-									13/10/2015
+									13/04/2015
 								</p>
 								<h3>Fecha de finalización</h3>
 								<p>
-									16/10/2015
+									16/04/2015
+								</p>
+                                <h3>Tipo de competencia</h3>
+								<p>
+									Kata
+								</p>
+                                <h3>Categoria</h3>
+                                <ul>
+									<li>Edad: 12-18 años</li>
+									<li>Cinta: Blanca</li>
+									<li>Peso: 40-65 Kgs</li>
+								</ul>
+                                <h3>Estado</h3>
+								<p>
+									Finalizada
 								</p>
                                 <h3>Locación</h3>
-								<p>
-									Caracas - Dojo SAKARATEDO
-								</p>
+								<ul>
+									<li>Estado: Distrito Capital</li>
+									<li>Ciudad: Caracas</li>
+									<li>Dojo: SAKARATEDO</li>
+								</ul>
 								<h3>Descripción</h3>
 								<p>
-                                    Competencia solo entre cintas verdes en el dojo SAKARATEDO
+                                    Competencia solo entre cintas blancas en el dojo SAKARATEDO
     							</p>
 							</div>
 						</div>
@@ -215,7 +246,7 @@
 							<div class="row">
 								<h3>Nombre</h3>
 								<p>
-									Cuarto encuentro de cintas negras 5to DAN
+									Cuarto encuentro de cintas blancas 1er kyu
 								</p>
 								<h3>Tipo</h3>
 								<p>
@@ -223,19 +254,20 @@
 								</p>
 								<h3>Fecha de inicio</h3>
 								<p>
-									10/10/2015
+									10/05/2015
 								</p>
 								<h3>Fecha de finalización</h3>
 								<p>
-									10/10/2015
+									10/05/2015
 								</p>
                                 <h3>Locación</h3>
-								<p>
-									Estado Guarico
-								</p>
+								<ul>
+									<li>Estado: Guarico</li>
+									<li>Ciudad: San Juan de los Morros</li>
+								</ul>
 								<h3>Descripción</h3>
 								<p>
-                                    Encuentro entre los cinturones negros de rango 5to Dan
+                                    Encuentro entre los cinturones blancos 1er kyu
     							</p>
 							</div>
 						</div>
